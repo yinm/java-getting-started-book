@@ -1,17 +1,13 @@
 public class Main {
 	public static void main(String[] args) {
-		int seibetsu = 0;
-		int age = 20;
+		boolean tenki = false;
 
-		System.out.println("こんにちは。");
-
-		if (seibetsu == 0) {
-			System.out.println("私は男です。");
-			System.out.println(age + "歳です。");
+		if (tenki) {
+			System.out.println("洗濯をします");
+			System.out.println("散歩に行きます");
 		} else {
-			System.out.println("私は女です。");
+			System.out.println("DVDを見ます");
+			System.out.println("寝ます");
 		}
-
-		System.out.println("よろしくおねがいします。");
 	}
 }
