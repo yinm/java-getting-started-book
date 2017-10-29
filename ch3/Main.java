@@ -1,12 +1,17 @@
 public class Main {
 	public static void main(String[] args) {
-		for (int i = 1; i < 10; i++) {
-			for (int j = 1; j < 10; j++) {
-				System.out.print(i * j);
-				System.out.print(" ");
-			}
+		int seibetsu = 0;
+		int age = 20;
 
-			System.out.println("");
+		System.out.println("こんにちは。");
+
+		if (seibetsu == 0) {
+			System.out.println("私は男です。");
+			System.out.println(age + "歳です。");
+		} else {
+			System.out.println("私は女です。");
 		}
+
+		System.out.println("よろしくおねがいします。");
 	}
 }
